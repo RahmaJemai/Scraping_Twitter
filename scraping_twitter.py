@@ -15,9 +15,9 @@ driver = webdriver.Chrome(options=chrome_options)
 driver.get(url)
 
 # Replace with your credentials
-username = 'speechpnumoallergoasr@gmail.com'
-username_verif = "@SpeechAsr"
-password = 'rh79ziqa'
+username = '*************'
+username_verif = "********"
+password = '***********'
 
 def login_to_twitter(username, password, username_verif):
     user_input = WebDriverWait(driver, 10).until(
